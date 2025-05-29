@@ -1,0 +1,16 @@
+{
+  "name": "write2env",
+  "version": "1.0.0",
+  "description": "CLI and API tool to write .env variables easily",
+  "main": "lib/writeEnv.js",
+  "bin": {
+    "write2env": "./index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "inquirer": "^8.2.6"
+  }
+}

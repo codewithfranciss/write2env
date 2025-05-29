@@ -36,7 +36,7 @@ npm install write2env
 ```
 ## Usage CLI
 
-- Simply run 
+ Simply run 
 ```bash
  write2env
 ```
@@ -49,3 +49,30 @@ You will see an interactive menu:
 Follow the prompts to update your `.env` file easily.
 
 ---
+
+## Programmatic Usage
+You can also use `write2env` inside your Node.js code:
+```bash
+ const { writeEnv } = require('write2env');
+
+writeEnv({
+  API_URL: 'https://api.example.com',
+  SECRET_KEY: 'mySecret123',
+});
+
+```
+
+---
+
+## Contributing
+Contributions are welcome! Please open issues or pull requests on GitHub.
+
+## License
+MIT © codewithfrancis
+
+## Notes
+-This tool is inspired by the need for a simpler .env management experience.
+-Hope popular frameworks like Next.js, React, and Express adopt similar built-in features soon!
+
+## Support
+If you find this package useful, please ⭐ star the repo and share it with others!

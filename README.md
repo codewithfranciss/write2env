@@ -34,3 +34,18 @@ Or install locally in your project:
 ```bash
 npm install write2env
 ```
+## Usage CLI
+
+- Simply run 
+```bash
+ write2env
+```
+You will see an interactive menu:
+- Add new environment variable
+- Edit existing variable
+- Delete a variable
+- Exit
+
+Follow the prompts to update your `.env` file easily.
+
+---

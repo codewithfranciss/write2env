@@ -6,11 +6,21 @@
   "bin": {
     "write2env": "./index.js"
   },
+  "keywords": [
+    "env",
+    "dotenv",
+    "cli",
+    "environment",
+    "nodejs"
+  ],
+  "author": "Dozie",
+  "license": "MIT",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
     "dotenv": "^16.5.0",
-    "inquirer": "^8.2.6"
+    "inquirer": "^8.2.6",
+    "write2env": "^1.0.0"
   }
 }

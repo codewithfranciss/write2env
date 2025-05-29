@@ -7,7 +7,7 @@
 
 ## Why write2env?
 
-Managing environment variables in `.env` files can be a pain — manually opening and editing files risks mistakes and slows you down.  
+Managing environment variables in `.env` files can be a pain, manually opening and editing files risks mistakes and slows you down.  
 `write2env` makes it effortless to add, update, or remove `.env` variables without ever opening the file.
 
 ---
@@ -28,3 +28,9 @@ Install globally to use the CLI anywhere:
 
 ```bash
 npm install -g write2env
+```
+
+Or install locally in your project:
+```bash
+npm install write2env
+```
